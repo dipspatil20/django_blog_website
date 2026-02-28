@@ -40,7 +40,13 @@
         {% for post in posts %}
         <div class="card border-0" >
           <div class="card-body">
-            <h3><a href="{% url 'blogs' post.slug %}" class="text-dark">{{ post.title }}</a></h3>
+            {% if post.slug %}
+              <h3><a href="{% url 'blogs' post.slug %}" class="text-dark">
+            {% else %}
+              <h3><a href="#" class="text-dark">
+            {% endif %}
+              {{ post.title }}
+            </a></h3>
             <small class="mb-1 text-muted">{{ post.created_at | timesince }} ago | {{ post.author }}</small>
             <p class="card-text">{{ post.short_description | truncatewords:25 }}</p>
           </div>
