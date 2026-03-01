@@ -110,6 +110,6 @@ Dipalee Rajendra Patil
 Aspiring Python / Backend Developer  
 🚀 Live Demo
 
-🔗 Live URL: https://your-live-link.com
+🔗 Live URL: https://dipaleepatil.pythonanywhere.com/
 
 🔗 GitHub Repository: https://github.com/dipspatil20/django_blog_website.git
