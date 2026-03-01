@@ -8,6 +8,7 @@ A production-ready blogging platform built using Django with authentication, rol
 🔗 Live URL: https://dipaleepatil.pythonanywhere.com/
 
 🔗 GitHub Repository: https://github.com/dipspatil20/django_blog_website.git
+
 ---
 
 ## 🚀 Features
@@ -111,4 +112,4 @@ Aspiring Python / Backend Developer
 
 🔗 Live URL: https://your-live-link.com
 
-🔗 GitHub Repository: https://github.com/dipspatil20/your-repo-name
+🔗 GitHub Repository: https://github.com/dipspatil20/django_blog_website.git
